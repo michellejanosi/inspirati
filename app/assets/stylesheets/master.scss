@@ -74,6 +74,7 @@ hr {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
   margin-top: 3.25vh;
+  padding: 0 50px;
 }
 
 .italic {
@@ -92,4 +93,15 @@ hr {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  float: right;
+  padding: 0 10px;
+}
+
+.links a:first-child {
+  padding-right: 80px;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: #792042
 }
