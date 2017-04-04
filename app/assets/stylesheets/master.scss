@@ -156,7 +156,7 @@ a:hover {
 
 .footer-blurb a {
   text-decoration: none;
-  color: #D62229;
+  color: #222;
 }
 
 .footer-blurb a:hover {
@@ -169,4 +169,12 @@ a:hover {
   font-family: "Baskerville", cursive;
   font-weight: normal;
   font-size: 1.15rem;
+}
+
+.fa-heart {
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  padding: 2px;
+  font-size: 16px;
+  color: #ff5252;
 }
