@@ -1,9 +1,6 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Raleway:300');
 
-.clear {
-  clear: both;
-}
 
 @function lower-bound($range){
   @if length($range) <= 0 {
@@ -65,6 +62,31 @@ header {
 }
 
 hr {
+  clear: both;
+}
+
+h1 {
+  font-family: "Baskerville", cursive;
+  font-size: 3.01em;
+  font-style: italic;
+  letter-spacing: 0.05rem;
+  line-height: 1.625;
+  margin-top: 15vh;
+  margin-left: 30px;
+  padding: 20px 100px 10px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.85em;
+  float: right;
+  padding-top: 30px;
+  padding-right: 150px;
+}
+
+.clear {
   clear: both;
 }
 
