@@ -85,6 +85,15 @@ h2 {
   padding-right: 50px;
 }
 
+h3 {
+  font-family: "Baskerville", cursive;
+  font-size: 2.5em;
+  font-style: italic;
+  letter-spacing: 0.05rem;
+  line-height: 1.625;
+  margin-top: 8vh;
+}
+
 a:hover {
   text-decoration: none;
   color: #222;
@@ -141,6 +150,7 @@ a:hover {
   font-weight: bold;
   font-size: 1.15rem;
   text-transform: uppercase;
+  letter-spacing: 0.05rem;
   margin-left: 3rem;
 }
 
@@ -149,8 +159,9 @@ a:hover {
   color: #222;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: .75rem;
+  font-size: .70rem;
   text-transform: uppercase;
+  letter-spacing: 0.02rem;
   margin-right: 3rem;
 }
 
@@ -168,7 +179,7 @@ a:hover {
   text-transform: lowercase;
   font-family: "Baskerville", cursive;
   font-weight: normal;
-  font-size: 1.15rem;
+  font-size: 1.12rem;
 }
 
 .fa-heart {
@@ -177,4 +188,12 @@ a:hover {
   padding: 2px;
   font-size: 16px;
   color: #ff5252;
+}
+
+.btn-danger {
+  background-color: #D62229;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
 }

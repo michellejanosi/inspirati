@@ -11,7 +11,9 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="logo">inspirati</div>
+        <%= link_to root_path do %>
+          <div class="logo">inspirati</div>
+        <% end %>
       </div>
 
       <div class="col-5 slogan text-right">
@@ -19,7 +21,7 @@
       </div>
 
       <div class="col-4 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -34,7 +36,7 @@
 
     <div class="footer">
       <div class="">
-        <%= link_to "Hit me with more inspiration! 💯", "#", class: 'next-quote' %>
+        <%= link_to "Hit me with more inspiration! 💯", root_path, class: 'next-quote' %>
       </div>
 
       <div class="footer-blurb">

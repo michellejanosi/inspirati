@@ -1,0 +1,8 @@
+<h3>Add your inspiring quote:</h3>
+
+<%= simple_form_for @quote do |f| %>
+  <%= f.input :quote %>
+  <%= f.input :author %>
+  <br>
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
