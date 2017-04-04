@@ -58,7 +58,7 @@ $small-up: $screen;
 }
 
 header {
-  border-top: 5px solid #222;
+  border-top: 5px solid #33235B;
 }
 
 hr {
@@ -72,7 +72,6 @@ h1 {
   letter-spacing: 0.05rem;
   line-height: 1.625;
   margin-top: 15vh;
-  margin-left: 30px;
   padding: 20px 100px 10px;
 }
 
@@ -83,7 +82,12 @@ h2 {
   font-size: 1.85em;
   float: right;
   padding-top: 30px;
-  padding-right: 150px;
+  padding-right: 50px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #222;
 }
 
 .clear {
@@ -95,7 +99,7 @@ h2 {
   font-weight: 300;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  margin-top: 3.25vh;
+  margin-top: 2.5vh;
   padding: 0 50px;
 }
 
@@ -104,10 +108,11 @@ h2 {
   text-transform: lowercase;
   font-family: "Baskerville", cursive;
   font-weight: normal;
+  font-size: 1.50rem;
 }
 
 .links {
-  margin-top: 3.25vh;
+  margin-top: 3.70vh;
 }
 
 .links a {
@@ -125,5 +130,43 @@ h2 {
 
 .links a:hover {
   text-decoration: none;
-  color: #792042
+  color: #D62229;
+  font-weight: bold;
+}
+
+.next-quote {
+  float: left;
+  color: #D62229;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  margin-left: 3rem;
+}
+
+.footer-blurb {
+  text-align: right;
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: .75rem;
+  text-transform: uppercase;
+  margin-right: 3rem;
+}
+
+.footer-blurb a {
+  text-decoration: none;
+  color: #D62229;
+}
+
+.footer-blurb a:hover {
+  color: #222;
+}
+
+.footer-italic {
+  font-style: italic;
+  text-transform: lowercase;
+  font-family: "Baskerville", cursive;
+  font-weight: normal;
+  font-size: 1.15rem;
 }

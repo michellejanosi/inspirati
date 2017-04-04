@@ -14,7 +14,7 @@
         <div class="logo">inspirati</div>
       </div>
 
-      <div class="col-5 slogan text-center">
+      <div class="col-5 slogan text-right">
         Quality hand-picked quotes to <span class="italic">inspire</span> you
       </div>
 
@@ -28,6 +28,18 @@
 
     <br class="clear">
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="">
+        <%= link_to "Hit me with more inspiration!", "#", class: 'next-quote' %>
+      </div>
+
+      <div class="footer-blurb">
+        Proudly hacked in Toronto, CA 🇨🇦 by <a href="http://michellejanosi.com" target="_blank"><span class="footer-italic">Michelle Janosi</span></a>.
+      </div>
+    </div>
   </body>
 </html>
