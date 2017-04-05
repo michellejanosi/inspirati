@@ -57,6 +57,10 @@ $small-up: $screen;
   100% { background-position: 3200px 0; }
 }
 
+*:focus {
+    outline: none;
+}
+
 header {
   border-top: 5px solid #33235B;
 }
@@ -72,7 +76,7 @@ h1 {
   letter-spacing: 0.05rem;
   line-height: 1.625;
   margin-top: 10vh;
-  padding: 20px 100px 10px;
+  padding: 20px 70px 10px;
 }
 
 h2 {
@@ -81,8 +85,8 @@ h2 {
   font-style: normal;
   font-size: 1.85em;
   float: right;
-  padding-top: 30px;
-  padding-right: 50px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 h3 {
@@ -152,6 +156,11 @@ a:hover {
   font-weight: bold;
 }
 
+.links a:visited {
+  text-decoration: none;
+  color: #E97639;
+}
+
 .next-quote {
   float: left;
   color: #D62229;
@@ -203,8 +212,24 @@ a:hover {
   background-color: #D62229;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+  font-size: .75em;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
+}
+
+.btn-secondary {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.control-label {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
 }
 
 .about {
@@ -230,4 +255,24 @@ a:hover {
 
 .mb-0 {
   font-size: 1.25em;
+}
+
+#myModalLabel {
+  float: left;
+  font-family: "Baskerville", cursive;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 2em;
+}
+
+#quote_quote {
+  font-family: "Baskerville", cursive;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.25em;
+}
+
+#quote_author {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
