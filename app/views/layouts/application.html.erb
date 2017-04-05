@@ -16,7 +16,7 @@
         <% end %>
       </div>
 
-      <div class="col-5 slogan text-right">
+      <div class="col-5 slogan text-right hidden-xs-down">
         Quality hand-picked quotes to <span class="italic">inspire</span> you
       </div>
 
@@ -39,8 +39,8 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body">
-              <%= f.input :quote %>
-              <%= f.input :author %>
+              <%= f.input :quote, label: "Your quote:" %>
+              <%= f.input :author, label: "The author:" %>
             </div>
             <div class="modal-footer">
               <%= f.submit 'add quote', class: 'btn btn-danger' %>
@@ -65,7 +65,7 @@
     </div>
 
     <div class="footer">
-      <div class="">
+      <div class="col-12 col-sm-6">
         <%= link_to "Hit me with more inspiration!", root_path, class: 'next-quote' %>
       </div>
 

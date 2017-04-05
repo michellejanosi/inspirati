@@ -75,7 +75,7 @@ h1 {
   font-style: italic;
   letter-spacing: 0.05rem;
   line-height: 1.625;
-  margin-top: 10vh;
+  margin-top: 2vh;
   padding: 20px 70px 10px;
 }
 
@@ -105,6 +105,7 @@ h3 {
   width: 90%;
   margin-left: 2rem;
   margin-bottom: 3rem;
+  border-left: #fff;
 }
 
 a:hover {
@@ -159,6 +160,16 @@ a:hover {
 .links a:visited {
   text-decoration: none;
   color: #E97639;
+}
+
+.tag-line {
+  color: #ddd;
+  float: left;
+  margin-top: 4vh;
+}
+
+.logo-tag-line {
+  letter-spacing: 0.4rem;
 }
 
 .next-quote {
@@ -253,6 +264,11 @@ a:hover {
   border-bottom: 1px solid #D62229;
 }
 
+.blockquote-footer {
+  text-align: right;
+  margin-top: 10px;
+}
+
 .mb-0 {
   font-size: 1.25em;
 }
@@ -275,4 +291,61 @@ a:hover {
 #quote_author {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+}
+
+::selection {
+  background-color: #D62229;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 1.50em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  .logo {
+    font-size: 1.35em;
+    margin-left: 20px;
+    margin-right: -90px;
+    margin-top: 20px;
+  }
+
+  .logo-about {
+    font-size: 1em;
+  }
+
+  .links {
+    margin-left: 150px;
+  }
+
+  .links a {
+    font-size: .90em;
+    float: right;
+    padding: 0;
+  }
+
+  .links a:first-child {
+    padding-right: 0;
+
+  }
+
+  .next-quote {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .about-blurb {
+    font-size: .95em;
+  }
+
+  .mb-0 {
+    font-size: .95em;
+  }
+
+  .footer-blurb {
+    font-size: .50em;
+  }
 }
