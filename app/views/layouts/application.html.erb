@@ -40,8 +40,8 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body">
-              <%= f.input :quote, label: "Your quote:" %>
-              <%= f.input :author, label: "The author:" %>
+              <%= f.input :quote, label: "Your quote:", placeholder: "Nothing is impossible. The word itself says 'I'm possible!'" %>
+              <%= f.input :author, label: "The author:", placeholder: "Audrey Hepburn" %>
             </div>
             <div class="modal-footer">
               <%= f.submit 'add quote', class: 'btn btn-danger' %>
