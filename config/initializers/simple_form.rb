@@ -166,4 +166,7 @@ SimpleForm.setup do |config|
 
   # Defines which i18n scope will be used in Simple Form.
   # config.i18n_scope = 'simple_form'
+
+  # Remove unwanted, ugly characters in form field
+  config.label_text = proc { |label, required| "#{label}" }
 end
