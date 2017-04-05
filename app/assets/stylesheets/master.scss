@@ -94,6 +94,15 @@ h3 {
   margin-top: 8vh;
 }
 
+.blockquote {
+  font-family: "Baskerville", cursive;
+  font-style: italic;
+  letter-spacing: 0.05rem;
+  width: 90%;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
 a:hover {
   text-decoration: none;
   color: #222;
@@ -196,4 +205,29 @@ a:hover {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
+}
+
+.about {
+  margin-top: 5vh;
+}
+
+.logo-about {
+  font-style: normal;
+  font-size: .75em;
+}
+
+.about-blurb {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  font-style: normal;
+}
+
+.about-blurb a {
+  color: #222;
+  border-bottom: 1px solid #D62229;
+}
+
+.mb-0 {
+  font-size: 1.25em;
 }
